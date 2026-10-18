@@ -1,1 +1,1 @@
-# sfs-rp.github.com
+# sfs-rp.github.io
