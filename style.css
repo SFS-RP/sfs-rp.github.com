@@ -234,4 +234,73 @@ img {
     th, td {
         padding: 10px 12px;
     }
+    /* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #12345a, #174777);
+    color: #ffffff;
+    border: 1px solid #42a5ff;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 0 8px rgba(66, 165, 255, 0.12);
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #174777, #2165a3);
+    box-shadow: 0 0 14px rgba(66, 165, 255, 0.35);
+    transform: translateY(-1px);
+}
+
+.btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 0 4px rgba(66, 165, 255, 0.2);
+}
+
+.btn:focus-visible {
+    outline: 2px solid #91ceff;
+    outline-offset: 3px;
+}
+
+.btn:disabled,
+.btn.disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+/* Optional button variants */
+.btn-secondary {
+    background: #101e31;
+    border-color: #45617f;
+}
+
+.btn-secondary:hover {
+    background: #1a3049;
+}
+
+.btn-danger {
+    background: linear-gradient(135deg, #511c2b, #7d2638);
+    border-color: #ff6178;
+}
+
+.btn-danger:hover {
+    background: linear-gradient(135deg, #762638, #a52e45);
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #104435, #17644b);
+    border-color: #45d6a0;
+}
+
+.btn-success:hover {
+    background: linear-gradient(135deg, #17644b, #218363);
+}
 }
