@@ -205,6 +205,11 @@ img {
     border-radius: 6px;
 }
 
+/* Custom Classes */
+    .txtr {
+        text-align: right;
+    }
+
 /* Mobile layout */
 @media (max-width: 700px) {
     body {
@@ -234,10 +239,7 @@ img {
     th, td {
         padding: 10px 12px;
     }
-    /* Custom Classes */
-    .txtr {
-         text-align: right;
-    }
+    
     /* Buttons */
 .btn {
     display: inline-block;
