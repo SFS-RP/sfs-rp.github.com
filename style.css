@@ -243,6 +243,12 @@ img {
     .txtr {
         text-align: right;
     }
+    .txtc {
+        text-align: center;
+    }
+    .txtl {
+        text-align: left
+    }
 
     /* Buttons */
 .btn {
@@ -286,7 +292,7 @@ img {
     box-shadow: none;
 }
 
-/* Optional button variants */
+/* Button Variants */
 .btn-secondary {
     background: #101e31;
     border-color: #45617f;
