@@ -320,6 +320,73 @@ img {
     background: linear-gradient(135deg, #17644b, #218363);
 }
 
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    max-width: 1160px;
+    margin: 0 auto 28px;
+    padding: 14px 24px;
+
+    background: rgba(7, 13, 24, 0.94);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    box-shadow: 0 0 18px var(--accent-glow);
+}
+
+/* Site name */
+.nav-brand {
+    color: var(--accent-blue);
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.nav-brand:hover {
+    color: #91ceff;
+    text-decoration: none;
+}
+
+/* Navigation links */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 8px 14px;
+
+    color: var(--text-main);
+    border: 1px solid transparent;
+    border-radius: 6px;
+
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    background: var(--bg-panel-light);
+    border-color: var(--border-color);
+    text-decoration: none;
+}
+
+/* Current page */
+.nav-link.active {
+    color: var(--accent-blue);
+    background: rgba(66, 165, 255, 0.10);
+    border-color: var(--accent-blue);
+}
+
 /* Mobile layout */
 @media (max-width: 700px) {
     body {
