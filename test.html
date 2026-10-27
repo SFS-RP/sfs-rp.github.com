@@ -4,34 +4,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Framework</title>
+    <title>Directory | SFS RP</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <nav class="navbar">
-        <span class="nav-brand">HEADER - Logo + Navigation</span>
-    </nav>
+
+    <header class="navbar">
+        <a href="index.html" class="nav-brand">
+            HEADER - Logo
+        </a>
+
+        <nav class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="directory.html" class="nav-link active">Directory</a>
+        </nav>
+    </header>
 
     <main>
+        <h1>Directory</h1>
+        <p class="txtc">
+            Browse the available records and resources.
+        </p>
 
-        <section class="txtc">
-            <h1>Welcome to SFS-RP</h1>
-            <p>The Offical Catalog of Spaceflight Simulator Roleplays!</p>
-            <a href="#" class="btn">Explore our Catalog →</a>
+        <section>
+            <h2>Launch Records</h2>
+
+            <h3>Launch History</h3>
+            <p>
+                All recorded launches, objectives, agencies,
+                difficulties, and outcomes.
+                <a href="launches.html">View all launches</a>
+            </p>
+
+            <h3>Agency Directory</h3>
+            <p>
+                Agency names, owners, and launch counts.
+                <a href="agencies.html">View all agencies</a>
+            </p>
         </section>
 
-        <table>
-            <tbody>
-                <tr>
-                    <td class="txtc">Catalogs</td>
-                    <td class="txtc">Make A Catalog</td>
-                    <td class="txtc">Update Log</td>
-                </tr>
-            </tbody>
-        </table>
+        <hr>
 
+        <section>
+            <h2>Rules &amp; Resources</h2>
+
+            <ul>
+                <li>
+                    <a href="rules.html">Community Rules</a>
+                </li>
+                <li>
+                    <a href="rocket-guidelines.html">
+                        Rocket Guidelines
+                    </a>
+                </li>
+                <li>
+                    <a href="agency-creation.html">
+                        Agency Creation
+                    </a>
+                </li>
+                <li>
+                    <a href="launch-approval.html">
+                        Launch Approval Process
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Other Resources</h2>
+
+            <ul>
+                <li><a href="#">Resource 1</a></li>
+                <li><a href="#">Resource 2</a></li>
+                <li><a href="#">Resource 3</a></li>
+            </ul>
+        </section>
 
     </main>
+
 </body>
 </html>
